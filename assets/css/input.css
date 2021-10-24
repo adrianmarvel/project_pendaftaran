@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+}
+html,body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom right, #97EEF7, #70B0B8);
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #57A2AB;
+}
+  
+li {
+    float: right;
+    margin-right: 20px;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #37666B;
+}
+.active{
+    background-color: #37666B;
+}
+.header{
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: #014D4D;
+}
+h4{
+    margin-left: 20px;
+}
+h6{
+    text-align: center;
+}
+hr.hr{
+    height: 1px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.small-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+    height: 360px;
+    border-radius: 10px;
+    background-color: #E2F5FF;
+    overflow: auto;
+}
+.input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-weight: bold;
+}
+.input:focus{
+    outline: none;
+}
+.radio{
+    display: inline;
+}
+select{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+.submit{
+    background-color: #4E9299;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    width: 120px;
+    border-radius:8px;
+    text-align: center;
+
+    transition-duration: 0.4s;
+}
+.submit:hover{
+    background-color: #37666B;
+}
+.batal{
+    background-color: #E09FC3;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px;
+    width: 100px;
+    border-radius:8px;
+    text-align: center;
+
+    transition-duration: 0.4s;
+}
+.batal:hover{
+    background-color: #614554;
+}
+.post{
+    padding: 20px;
+    height: 300px;
+}
+.fselect{
+    color: rgba(0,0,0,0.7);
+}

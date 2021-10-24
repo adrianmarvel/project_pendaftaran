@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+}
+html,body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom right, #97EEF7, #70B0B8);
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #57A2AB;
+}
+  
+li {
+    float: right;
+    margin-right: 20px;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #37666B;
+}
+.active{
+    background-color: #37666B;
+}
+.header{
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: #014D4D;
+}
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #014D4D;
+}
+.tambah{
+    background-color: #4E9299;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px;
+    border-radius:8px;
+    text-align: center;
+
+    transition-duration: 0.4s;
+}
+.tambah:hover{
+    background-color: #37666B;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+th, td {
+    padding: 15px;
+  }
+th{
+    background-color: #E09FC3;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: #FFE6DE;
+  }
+tr{
+background-color: white;
+}
+.id{
+    border-radius: 10px 0px 0px 10px;
+}
+.pilihan{
+    border-radius: 0px 10px 10px 0px;
+}
+.idBody{
+    border-radius: 10px 0px 0px 10px;
+}
+.pilihanBody{
+    border-radius: 0px 10px 10px 0px;
+}
+img{
+    height: 20px;
+    width: auto;
+}
