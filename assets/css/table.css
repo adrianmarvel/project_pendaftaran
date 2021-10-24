@@ -98,3 +98,8 @@ img{
     height: 20px;
     width: auto;
 }
+@media (max-width: 1000px) {
+    .table{
+        overflow-x: auto;
+    }
+}

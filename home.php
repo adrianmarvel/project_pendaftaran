@@ -19,13 +19,13 @@
                 <p class="campus">Universitas Bhayangkara Surabaya</p>
                 <p class="alamat">Jl. Ahmad Yani Frontage Road Ahmad Yani No.114, Ketintang, Kec. Gayungan, Kota SBY, Jawa Timur 60231</p>
                 <div class="tombol">
-                    <button class="daftar" onclick="window.location.href='create.php';">Daftar</button>
+                    <button class="daftar" onclick="window.location.href='input.php';">Daftar</button>
                     <button class="lihat" onclick="window.location.href='table.php';">Lihat Pendaftar</button>
                 </div>
             </div>
         </div>
         <div class="right">
-        <img src="assets/img/Dashboard-amico.svg" width="250px" class="img">
+            <img src="assets/img/Dashboard-amico.svg" width="250px" class="img">
         </div>
     </div>
     

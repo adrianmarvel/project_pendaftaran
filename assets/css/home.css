@@ -9,6 +9,7 @@ html,body{
 }
 .flex-container{
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 .title{
@@ -80,7 +81,15 @@ html,body{
     align-items: center;
 }
 .img{
-    width: auto;
+    width: 100%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+@media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    html,body{
+        height: auto;
+    }
 }

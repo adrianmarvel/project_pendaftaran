@@ -65,7 +65,6 @@
                     <br><br>
                     <div class="button">
                         <button type="submit" name="submit" class="submit" onclick="return confirm('Anda yakin ingin mengubah data?')">Ubah Data</button>
-                        <button class="batal" onclick="window.location.href='table.php';">Batal</button>
                     </div>
                 </form>
                 <!-- ====================================================================================================================== -->
