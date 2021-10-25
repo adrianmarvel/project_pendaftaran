@@ -92,6 +92,7 @@ background-color: white;
     border-radius: 10px 0px 0px 10px;
 }
 .pilihanBody{
+    text-align: center;
     border-radius: 0px 10px 10px 0px;
 }
 img{
@@ -101,5 +102,14 @@ img{
 @media (max-width: 1000px) {
     .table{
         overflow-x: auto;
+        margin-bottom: 180px;
+    }
+    html,body{
+        height: auto;
+    }
+}
+@media (max-width: 500px){
+    html,body{
+        height: auto;
     }
 }
