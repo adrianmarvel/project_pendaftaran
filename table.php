@@ -31,11 +31,12 @@
         </div>
     </div>
     <section class="get">
+        <div class="subheader">
+            <p>*Daftar Calon Mahasiswa Baru</p>
+            <button class="tambah" onclick="window.location.href='input.php';">Tambah Mahasiswa +</button>
+        </div>
         <div class="table">
-            <div class="subheader">
-                <p>*Daftar Calon Mahasiswa Baru</p>
-                <button class="tambah" onclick="window.location.href='input.php';">Tambah Mahasiswa +</button>
-            </div>
+            
             <table>
                 <tr>
                     <th class="id">ID</th>
